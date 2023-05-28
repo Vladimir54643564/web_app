@@ -1,0 +1,77 @@
+body{
+   color: var(--tg-theme-text-color);
+   background: var(--tg-theme-bg-color);
+   display: flex;
+   flex-direction: column;
+   font-size: 22px;
+   width: 100%;
+   overflow-x:hidden;
+   line-height: 15px
+   }
+
+   .hint{
+      color: var(--tg-theme-hint-color);
+   }
+
+   .link{
+      color: var(--tg-theme-link-color);
+   }
+
+   .otvet input {
+      color: var(--tg-theme-text-color);
+      background: var(--tg-theme-bg-color);
+      width:92%;
+      font-size: 20px;
+      padding:5px;
+      border-radius:10px;
+      margin-top: 1%;
+      text-align: center;
+      margin-left: 0.3%;
+      border-style: solid;
+      height: 32px;
+      
+   }
+
+   .reb input {
+      color: var(--tg-theme-text-color);
+      background: var(--tg-theme-bg-color);
+      width:92%;
+      font-size: 20px;
+      padding:5px;
+      border-radius:10px;
+      margin-top: 1%;
+      text-align: center;
+      margin-left: 0.3%;
+      border-style: solid;
+      height: 32px;
+
+   }
+   .her button{
+      background: var(--tg-theme-button-color);
+      color: var(--tg-theme-button-text-color);
+      padding: 20px 30px;
+      outline: none;
+      cursor: pointer;
+      border-radius:10px;
+      text-align: center;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%, 0);
+      font-size: 18px;
+      border-style: none;
+      
+      
+      
+   }
+   button:hover {
+      filter: brightness(120%);
+   }
+
+   .lof select{
+      background: var(--tg-theme-bg-color);
+      color: var(--tg-theme-text-color);
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+      
+   }
