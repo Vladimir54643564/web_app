@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestWebApp</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<h3 align="center">Поступление 2023</h3>
+
+<div class="lof">
+<label for="level-select">Выбери уровень</label>
+   <select name="level" id="level-select">
+     <option value="kvan1">Кванториум 1.0</option>
+     <option value="kvan2">Кванториум 2.0</option>
+     <option value="kvan3">Кванториум 3.0</option>
+   </select>
+   <br>
+   <br>
+<label for="level-select">Направление</label>
+   <select name="level" id="level-select">
+      <option value="kvan1">АВТОКВАНТУМ</option>
+      <option value="kvan2">АЭРОКВАНТУМ</option>
+      <option value="kvan3">IT КВАНТУМ</option>
+      <option value="kvan1">ПРОМДИЗАЙН</option>
+      <option value="kvan2">VR/AR КВАНТУМ</option>
+      <option value="kvan3">ГЕОКВАНТУМ</option>
+      <option value="kvan2">НАНОКВАНТУМ</option>
+      <option value="kvan3">ХАЙТЕК ЦЕХ</option>
+      <option value="kvan2">ЭНЕРДЖИ</option>
+      <option value="kvan3">РОБОКВАНТУМ</option>
+   </select>
+</div>
+
+
+
+<div class="otvet">
+   <p>Данные ответственного:</p>
+      <input type="text" id = 'fio' placeholder="ФИО родителя"/>
+      <br>
+      <input type="text" id = 'nomer' placeholder="Номер телефона"/>
+      <br>
+      <input type="text" id = 'adress' placeholder="Адрес" />
+</div>
+
+<div class="reb">
+   <p>Данные ребенка:</p>
+   <input type="text" placeholder="ФИО ребенка" />
+   <input type="text" placeholder="Номер телефона(если есть)"/>
+</div>
+
+<div class="her">
+   <br>
+   <button class="batton" id="btn1" onclick="clicbutton(this)">Отправить</button>
+</div>
+<body>
+</body>
+<script>let tg = window.Telegram.WebApp; </script>
+<script src="scripts.js"></script>
+</html>
